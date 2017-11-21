@@ -10,4 +10,8 @@ attr_accessor :name, :appointments
     @appointments << appointment
     appointment.patient = self
   end
+
+  def doctors
+    
+  end
 end
