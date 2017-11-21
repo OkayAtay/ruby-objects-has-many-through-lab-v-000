@@ -15,4 +15,8 @@ attr_accessor :name, :appointments
   def appointments
     @appointments
   end
+
+  def patients
+    
+  end
 end
