@@ -11,4 +11,8 @@ attr_accessor :name, :appointments
     @appointments << appointment
     appointment.doctor = self
   end
+
+  def appointments
+    @appointments
+  end
 end
