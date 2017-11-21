@@ -12,6 +12,6 @@ attr_accessor :name, :appointments
   end
 
   def doctors
-    
+
   end
 end
