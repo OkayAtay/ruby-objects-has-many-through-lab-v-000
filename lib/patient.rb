@@ -14,5 +14,6 @@ attr_accessor :name, :appointments
   def doctors
     @appointments.collect |appointment|
       appointment.doctor
+    end
   end
 end
