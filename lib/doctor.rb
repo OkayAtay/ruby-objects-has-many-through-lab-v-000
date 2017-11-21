@@ -17,6 +17,6 @@ attr_accessor :name, :appointments
   end
 
   def patients
-    
+
   end
 end
