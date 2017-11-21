@@ -12,7 +12,7 @@ attr_accessor :name, :appointments
   end
 
   def doctors
-    @appointments.collect |appointment|
+    @appointments.collect do |appointment|
       appointment.doctor
     end
   end
