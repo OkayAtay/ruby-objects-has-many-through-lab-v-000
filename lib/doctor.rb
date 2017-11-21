@@ -7,4 +7,7 @@ attr_accessor :name, :appointments
     @appointments=[]
   end
 
+  def add_appointment
+
+  end
 end
