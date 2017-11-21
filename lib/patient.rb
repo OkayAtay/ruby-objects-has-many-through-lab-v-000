@@ -5,4 +5,8 @@ attr_accessor :name, :appointments
     @name=name
     @appointments=[]
   end
+
+  def add_appointment(appointment)
+    
+  end
 end
