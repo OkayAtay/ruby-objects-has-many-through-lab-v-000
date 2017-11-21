@@ -1,6 +1,6 @@
 class Appointment
 attr_accessor
-  def initialize(date)
-    
+  def initialize(date,doctor)
+
   end
 end
