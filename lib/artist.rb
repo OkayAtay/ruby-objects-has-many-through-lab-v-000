@@ -16,4 +16,5 @@ attr_accessor :name
       song.genre
     end
   end
+
 end
